@@ -66,5 +66,5 @@ def count_money(counts):
         subtotal = value * count
         total += subtotal
         
-        print(f"{name}: {count} x {value} = {subtotal}")
-    print(f"Total: {total}")
+        # print(f"{name}: {count} x {value} = {subtotal}")
+    return total
